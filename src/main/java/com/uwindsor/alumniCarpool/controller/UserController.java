@@ -18,10 +18,10 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/users")
 public class UserController {
-    @Autowired
-    private UserRepository repository;
+    //@Autowired
+    private UserRepository repository = null;
 
-    @Autowired
+    //@Autowired
     private PasswordEncoder passwordEncoder;
 
 
